@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    background-color: rgb(235, 241, 248);
+}
+
+.contentContainer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: rgb(109, 130, 161);
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: transparent;
+}
+
+img {
+    align-self: center;
+    width: 140px;
+    aspect-ratio: 1.0;
+    padding: 20px;
+}
+
+.checkBox {
+    margin: 8px 0 8px 0;
+}
+
+.submitBtn {
+    display: flex;
+    align-self: center;
+    padding: 8px 16px 8px 16px;
+}
+
+form {
+    display:  flex;
+    flex-direction: column;
+}
+
+.outputContainer {
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(109, 130, 161);
+    padding: 10px;
+}
+
+.outputContainer p {
+    color: white;
+    margin: 4px 0 4px 0;
+}
+
+.outputContainer h2 {
+    color: white;
+    align-self: center;
+}
